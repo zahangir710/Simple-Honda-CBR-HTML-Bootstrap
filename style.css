@@ -19,3 +19,16 @@
 .gray-scale{
     filter: grayscale(100%);
 }
+.btn-property{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    transition: all linear 0.3s;
+}
+.btn-property:hover{
+    background-color:#E76F51 ;
+    color: #fff;
+}
+/* happy client part css  */
+.round-image{
+    border-radius: 50%;
+}
