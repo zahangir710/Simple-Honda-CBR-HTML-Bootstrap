@@ -1,0 +1,21 @@
+/* header part css  */
+.header-bg{
+    background-color: #264653;
+}
+.text-color-white{
+    color: #fff;
+}
+.text-color-gray{
+   color: #E0E0E0;
+}
+.btn-color{
+    background-color: #E76F51;
+    color: #fff;
+}
+/* main featured part css  */
+.text-color-orange{
+    color: #E76F51;
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
