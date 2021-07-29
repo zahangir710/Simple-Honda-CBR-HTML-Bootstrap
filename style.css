@@ -1,3 +1,9 @@
+body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
 /* header part css  */
 .header-bg{
     background-color: #264653;
@@ -39,4 +45,26 @@
     font-size: 36px;
     color: rgb(129, 122, 122);
     padding-right: 20px;
+}
+/* sign up part css  */
+.sign-up-bg{
+    position: relative;
+    background-image: url(images/honda-bike.jpg);
+    image-orientation: ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.sign-up-bg:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(129, 122, 122, 0.6);
+}
+.sign-up-details{
+    position: relative;
 }
